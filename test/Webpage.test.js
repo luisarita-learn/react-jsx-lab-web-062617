@@ -13,6 +13,7 @@ describe('<Webpage />', function () {
   });
 
   it('should have two instances of the `FillerText` component', function () {
+    //expect(wrapper.text()).to.include("fill");
     expect(wrapper.find(FillerText).length).to.equal(2);
   });
 });
